@@ -1,0 +1,78 @@
+{
+    "workbench.colorTheme": "Aura Soft Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.settings.editor": "json",
+    "material-icon-theme.files.associations": {
+        "*.ts": "typescript",
+        "**.json": "json",
+        "*.component.html": "Angular",
+        "*.component.css": "Angular-component",
+        "*.component.ts": "typescript",
+        "*.guard.css": "Angular-guard",
+        "*.service.ts": "Angular-Service"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": { "source": "PowerShell", "icon": "terminal-powershell" },
+        "Command Prompt": {
+          "path": [
+            "${env:windir}\\Sysnative\\cmd.exe",
+            "${env:windir}\\System32\\cmd.exe"
+          ],
+          "icon": "terminal-cmd"
+        },
+        "GitBash": {
+          "path": "C:\\Git\\bin\\bash.exe",
+          "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "explorer.compactFolders": false,
+    "glassit.alpha": 220,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+      "sass"
+    ],
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true 
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+    "prettier.endOfLine": "crlf",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.singleAttributePerLine": true,
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "preserve",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[python]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "ms-python.python"
+    }
+}
