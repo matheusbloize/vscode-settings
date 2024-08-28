@@ -1,7 +1,6 @@
 {
-    "workbench.colorTheme": "Aura Soft Dark",
+    "workbench.colorTheme": "Solarized Light",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.untitled.hint": "hidden",
     "liveServer.settings.donotShowInfoMsg": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "explorer.confirmDelete": false,
@@ -30,7 +29,10 @@
           "icon": "terminal-bash"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "color-highlight.languages": [
+      "css", "javascript", "javascriptreact", "typescript", "typescriptreact"
+    ],
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "explorer.compactFolders": false,
     "glassit.alpha": 220,
     "emmet.triggerExpansionOnTab": true,
@@ -42,7 +44,7 @@
     ],
     "editor.tabSize": 2,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true 
+      "source.fixAll.eslint": "explicit"
     },
     "[javascriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -60,13 +62,14 @@
     "prettier.printWidth": 120,
     "prettier.proseWrap": "preserve",
     "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[css]": {
       "editor.defaultFormatter": "vscode.css-language-features"
@@ -74,5 +77,20 @@
     "[python]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "ms-python.python"
-    }
+    },
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "git.confirmSync": false,
+    "files.eol": "\n",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false
 }
