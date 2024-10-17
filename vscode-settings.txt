@@ -1,96 +1,89 @@
 {
-    "workbench.colorTheme": "Solarized Light",
-    "workbench.iconTheme": "material-icon-theme",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "explorer.confirmDelete": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "workbench.settings.editor": "json",
-    "material-icon-theme.files.associations": {
-        "*.ts": "typescript",
-        "**.json": "json",
-        "*.component.html": "Angular",
-        "*.component.css": "Angular-component",
-        "*.component.ts": "typescript",
-        "*.guard.css": "Angular-guard",
-        "*.service.ts": "Angular-Service"
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.settings.editor": "json",
+  "material-icon-theme.files.associations": {
+    "*.ts": "typescript",
+    "**.json": "json",
+    "*.component.html": "Angular",
+    "*.component.css": "Angular-component",
+    "*.component.ts": "typescript",
+    "*.guard.css": "Angular-guard",
+    "*.service.ts": "Angular-Service"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": { "source": "PowerShell", "icon": "terminal-powershell" },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "icon": "terminal-cmd"
     },
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": { "source": "PowerShell", "icon": "terminal-powershell" },
-        "Command Prompt": {
-          "path": [
-            "${env:windir}\\Sysnative\\cmd.exe",
-            "${env:windir}\\System32\\cmd.exe"
-          ],
-          "icon": "terminal-cmd"
-        },
-        "GitBash": {
-          "path": "C:\\Git\\bin\\bash.exe",
-          "icon": "terminal-bash"
-        }
-    },
-    "color-highlight.languages": [
-      "css", "javascript", "javascriptreact", "typescript", "typescriptreact"
-    ],
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "explorer.compactFolders": false,
-    "glassit.alpha": 220,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
-    "emmet.excludeLanguages": [
-      "sass"
-    ],
-    "editor.tabSize": 2,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[prisma]": {
-      "editor.formatOnSave": true
-    },
-    "prettier.endOfLine": "crlf",
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
-    "prettier.singleAttributePerLine": true,
-    "prettier.printWidth": 120,
-    "prettier.proseWrap": "preserve",
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[typescript]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[css]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[python]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "ms-python.python"
-    },
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": false,
-    "explorer.confirmDragAndDrop": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.editor.empty.hint": "hidden",
-    "git.confirmSync": false,
-    "files.eol": "\n",
-    "workbench.tree.enableStickyScroll": false,
-    "editor.stickyScroll.enabled": false
+    "GitBash": {
+      "path": "C:\\Git\\bin\\bash.exe",
+      "icon": "terminal-bash"
+    }
+  },
+  "color-highlight.languages": ["css", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.compactFolders": false,
+  "glassit.alpha": 220,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.excludeLanguages": ["sass"],
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "prettier.endOfLine": "lf",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.printWidth": 90,
+  "prettier.proseWrap": "preserve",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    // "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "git.confirmSync": false,
+  "files.eol": "\n",
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false
 }
