@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Solarized Light",
   "workbench.iconTheme": "material-icon-theme",
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
   "explorer.confirmDelete": false,
   "liveServer.settings.donotVerifyTags": true,
   "workbench.settings.editor": "json",
@@ -26,7 +26,13 @@
       "icon": "terminal-bash"
     }
   },
-  "color-highlight.languages": ["css", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "color-highlight.languages": [
+    "css",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "explorer.compactFolders": false,
   "glassit.alpha": 220,
@@ -48,7 +54,7 @@
   "[prisma]": {
     "editor.formatOnSave": true
   },
-  "prettier.endOfLine": "lf",
+  "prettier.endOfLine": "crlf",
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "prettier.singleAttributePerLine": true,
@@ -68,8 +74,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.formatOnSave": true
   },
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontLigatures": false,
@@ -85,5 +90,20 @@
   "git.confirmSync": false,
   "files.eol": "\n",
   "workbench.tree.enableStickyScroll": false,
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "[csharp]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "[java]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "chat.commandCenter.enabled": false,
+  "editor.codeLens": true,
+  "editor.inlayHints.enabled": "off",
+  "java.configuration.runtimes": [],
+  "code-runner.showExecutionMessage": false,
+  "code-runner.runInTerminal": true
 }
