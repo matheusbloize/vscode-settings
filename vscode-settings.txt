@@ -108,4 +108,5 @@
   "code-runner.runInTerminal": true,
   "window.restoreWindows": "none",
   "workbench.startupEditor": "none",
+  "files.dialog.defaultPath": "D:\\projects",
 }
