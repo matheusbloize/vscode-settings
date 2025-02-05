@@ -22,7 +22,7 @@
       "icon": "terminal-cmd"
     },
     "GitBash": {
-      "path": "C:\\Git\\bin\\bash.exe",
+      "path": "E:\\Git\\bin\\bash.exe",
       "icon": "terminal-bash"
     }
   },
@@ -33,7 +33,7 @@
     "typescript",
     "typescriptreact"
   ],
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "GitBash",
   "explorer.compactFolders": false,
   "glassit.alpha": 220,
   "emmet.triggerExpansionOnTab": true,
@@ -105,5 +105,7 @@
   "editor.inlayHints.enabled": "off",
   "java.configuration.runtimes": [],
   "code-runner.showExecutionMessage": false,
-  "code-runner.runInTerminal": true
+  "code-runner.runInTerminal": true,
+  "window.restoreWindows": "none",
+  "workbench.startupEditor": "none",
 }
