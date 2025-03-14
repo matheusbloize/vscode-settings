@@ -40,8 +40,9 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "emmet.excludeLanguages": ["sass"],
-  "editor.tabSize": 2,
+  "emmet.excludeLanguages": [
+    "sass"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -88,7 +89,7 @@
   },
   "workbench.editor.empty.hint": "hidden",
   "git.confirmSync": false,
-  "files.eol": "\n",
+  "files.eol": "\r\n",
   "workbench.tree.enableStickyScroll": false,
   "editor.stickyScroll.enabled": false,
   "extensions.ignoreRecommendations": true,
@@ -109,4 +110,5 @@
   "window.restoreWindows": "none",
   "workbench.startupEditor": "none",
   "files.dialog.defaultPath": "D:\\projects",
+  "explorer.confirmPasteNative": false,
 }
