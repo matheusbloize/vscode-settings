@@ -22,7 +22,7 @@
       "icon": "terminal-cmd"
     },
     "GitBash": {
-      "path": "E:\\Git\\bin\\bash.exe",
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "icon": "terminal-bash"
     }
   },
@@ -50,14 +50,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[prisma]": {
     "editor.formatOnSave": true
   },
   "prettier.endOfLine": "crlf",
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": false,
   "prettier.singleAttributePerLine": true,
   "prettier.printWidth": 90,
   "prettier.proseWrap": "preserve",
@@ -69,7 +70,8 @@
   },
   "[typescript]": {
     // "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -93,16 +95,19 @@
   "workbench.tree.enableStickyScroll": false,
   "editor.stickyScroll.enabled": false,
   "extensions.ignoreRecommendations": true,
+  "omnisharp.enableEditorConfigSupport": true,
   "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.formatOnSave": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
   },
   "[java]": {
     "editor.formatOnSave": true,
     "editor.tabSize": 4
   },
   "chat.commandCenter.enabled": false,
-  "editor.codeLens": true,
+  "editor.codeLens": false,
   "editor.inlayHints.enabled": "off",
   "java.configuration.runtimes": [],
   "code-runner.showExecutionMessage": false,
@@ -111,4 +116,9 @@
   "workbench.startupEditor": "none",
   "files.dialog.defaultPath": "D:\\projects",
   "explorer.confirmPasteNative": false,
+  "vsintellicode.modify.editor.suggestSelection": "disabled",
+  "editor.inlineSuggest.enabled": false,
+  "dotnet.server.useOmnisharp": true,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "chat.agent.enabled": false,
 }
